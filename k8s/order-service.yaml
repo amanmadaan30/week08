@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: order-service-container
-        image: week8acr722.azurecr.io/order_service:latest
+        image: ACR_LOGIN_SERVER_PLACEHOLDER/order_service:IMAGE_TAG_PLACEHOLDER
         imagePullPolicy: Always
         ports:
         - containerPort: 8000

@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: product-service-container
-        image: week8acr722.azurecr.io/product_service:latest
+        image: ACR_LOGIN_SERVER_PLACEHOLDER/product_service:IMAGE_TAG_PLACEHOLDER
         imagePullPolicy: Always
         ports:
         - containerPort: 8000

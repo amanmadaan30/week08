@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: frontend-container
-        image: week8acr722.azurecr.io/frontend:latest
+        image: ACR_LOGIN_SERVER_PLACEHOLDER/frontend:IMAGE_TAG_PLACEHOLDER
         imagePullPolicy: Always
         ports:
         - containerPort: 80
